@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
     <title>My Prework Final Project Website</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <h3>Some Displays of the Basic HTML/CSS/JavaScript Learned Through Prework</h3>
+    <div id="top">
+        <h1>Welcome to the Internet!</h1>
+        <h2>Have a look around,</h2>
+        <h3>anything that brain of yours can think of can be found!</h3>
+    </div>
 
-    <section>
-        <p>This section has a paragraph, a figure, a caption for the figure, and a link.</p>
-        <figure>
-            <img id="catpic" src="cats.jpg" alt="picture of my cats" title="Cranberry and Lucy">
-            <figcaption>These are my cats, Cranberry and Lucy</figcaption>
-        </figure>
-        <p class="insta"><a href="https://www.instagram.com/cranberrythemunchkincat/">Click here to check out Cranberry's Instagram</a></p>
-    </section>
-
-    <div>
+    <div id="catstuff">
+        <section>
+            <h4>Here's a cat pic, a footer, a link, and some text.</h4>
+            <div>
+                <figure>
+                    <div float="right">
+                        <img id="catpic" src="images/cats.jpg" style="float:right" alt="picture of my cats" title="Cranberry and Lucy">
+                    </div>
+                    <div style="clear:right">
+                        <figcaption>These are my cats, Cranberry and Lucy</figcaption>
+                    </div>
+                </figure>
+            </div>
+            <p class="insta"><a href="https://www.instagram.com/cranberrythemunchkincat/">Click here to check out Cranberry's Instagram</a></p>
+        </section>
+    </div>
+    <div id="javastuff">
         <script src="script.js"></script> 
         <button onclick="buttonClick2()">Click here to receive a fun fact!</button>
     </div>
    
-    <section id="columns">
+    <section id="columns">        
         <div>
-          <h3>Contact</h3>
-          <p>
-            <a href="mailto:afakeemail@fauxmail.com">afakeemail@fauxmail.com</a><br>
-            +1 555-555-1234 <br>
-            No Solicitors
-          </p>
-        </div>
-        
-        <div>
-          <h3>Another Column</h3>
+          <h3>Feel Inspired</h3>
           <p>
             C'mon Jeffrey, you can do it<br>
             Pave the way, put your back into it<br>
